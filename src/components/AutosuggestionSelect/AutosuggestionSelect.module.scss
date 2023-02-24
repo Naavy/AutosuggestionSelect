@@ -1,0 +1,38 @@
+.selectWrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.select {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  width: 200px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  color: #000;
+  cursor: pointer;
+
+  input {
+    border: none;
+    font-size: 16px;
+    width: 140px;
+
+    &:focus {
+      outline: none;    
+    }
+  }
+}
+
+.list {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 220px;
+  border-radius: 5px;
+  background-color: white;
+  overflow: scroll;
+  height: 300px;
+}

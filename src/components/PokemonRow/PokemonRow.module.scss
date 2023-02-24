@@ -1,0 +1,24 @@
+.pokemonRow {
+  display: flex;
+  background-color: #fff;
+  color: #000;
+  width: 200px;
+  padding: 10px;
+
+  &:hover {
+    background-color: lightblue;
+  }
+}
+
+.pokemonName {
+  width: 150px;
+  text-align: left;
+
+  &--active {
+    font-weight: bold;
+  }
+}
+
+input {
+  margin-right: 20px;
+}
